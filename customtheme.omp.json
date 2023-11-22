@@ -5,7 +5,7 @@
       "alignment": "right",
       "segments": [
         {
-          "foreground": "#999999",
+          "foreground": "#EBDBB2",
           "properties": {
             "time_format": "15:04:05"
           },
@@ -22,21 +22,21 @@
       "newline": true,
       "segments": [
         {
-          "background": "#444444",
-          "foreground": "#999999",
+          "background": "#98971A",
+          "foreground": "#EBDBB2",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
           "template": " {{ .UserName }} ",
           "type": "session"
         },
         {
-          "background": "#5F8787",
-          "foreground": "#000000",
+          "background": "#458588",
+          "foreground": "#EBDBB2",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "folder_icon": "\uf115",
             "folder_separator_icon": " \ue0b1 ",
-            "home_icon": "\uf7db",
+            "home_icon": "\udb80\udedc",
             "style": "agnoster"
           },
           "style": "powerline",
@@ -44,8 +44,8 @@
           "type": "path"
         },
         {
-          "background": "#7799BB",
-          "foreground": "#000000",
+          "background": "#665C54",
+          "foreground": "#EBDBB2",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
           "template": " {{ .HEAD }} ",
